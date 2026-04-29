@@ -80,19 +80,26 @@ architecturally, not just as a prompt suggestion.
 
 ---
 
-## This Repository
+## Files in This Repository
 
-**What's here:**
-- - Synthetic student simulation harness (`zeno_harness_v2.py`)
-- Synchronicity Score evaluation methodology
-- Descent Protocol specification and gating logic
-- Student persona framework (state variable architecture)
-- Baseline results from April 2026 runs
+**`zeno_harness_v2.py`**  
+Synthetic tutoring session simulator. Runs Claude Sonnet as Zeno 
+(tutor) against Claude Haiku as a student persona. Scores each 
+turn using the Synchronicity Evaluator and logs Descent Protocol 
+activations. Requires an Anthropic API key.
 
-**What's not here:**
-- Full Zeno system prompt (proprietary)
-- DLC pack content (proprietary)
-- Live student session data
+**`Student_A_System_Prompt_v2.txt`**  
+Example synthetic student persona using a state variable 
+architecture. Models energy, vocabulary confidence, engagement, 
+patience, and metacognitive awareness as independent variables 
+with different depletion rates. Derived from real tutoring 
+observations, anonymized.
+
+**`animal_farm_student_summary.txt`**  
+Example student-context compression. The full novel (30,061 words) 
+distilled to 719 words of imperfect recall — what a student who 
+read it once quickly would actually retain. Fed to the student 
+model while Zeno receives the full text.
 
 ---
 

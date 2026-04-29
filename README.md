@@ -6,8 +6,8 @@ Research, evaluation methodology, and published papers exploring
 AI-powered Socratic tutoring for Grade 9–12 humanities students 
 (English Literature, IB English, AP/SAT prep).
 
-Built and maintained by Greg O'Keefe — BC-certified teacher, 
-independent researcher, and founder of EM Academy Canada.
+Built and maintained by Greg O'Keefe — BC-certified teacher, tutor, 
+and independent researcher.
 
 ---
 
@@ -29,23 +29,35 @@ behalf of students rather than helping them build it themselves.
 
 ### Published Papers
 
-1. **The Cognitive Allocation Gap** — EdArXiv/OSF  
+1. **The Economic Conversion of Cognitive Production**  
+   Life in the pre-AI era — how cognitive labour was valued 
+   before AI began replicating it at scale.  
+   [Read on OSF](https://doi.org/10.35542/osf.io/67d5x_v1)
+
+2. **The Intelligence Premium**  
+   How AI redistributes the returns on human cognitive work 
+   and what that means for knowledge workers.  
+   [Read on OSF](https://doi.org/10.35542/osf.io/r74sg_v1)
+
+3. **The Cognitive Allocation Gap**  
    How AI tools are shifting cognitive load away from students 
-   and what that means for assessment and pedagogy.
+   and what that means for assessment and pedagogy.  
+   [Read on OSF](https://doi.org/10.35542/osf.io/u5yv2_v1)
 
-2. **BC Secondary School AI Policy Audit**  
+4. **BC Secondary School AI Policy Audit**  
    65% of BC secondary schools lacked AI-specific academic 
-   integrity language 26 months post-ChatGPT.
+   integrity language 26 months post-ChatGPT.  
+   [Read on OSF](https://doi.org/10.35542/osf.io/nhbfp_v1)
 
-3. **The Endogenous Machine**  
+5. **The Endogenous Machine**  
    AI as a trajectory rather than a noun — the institutional 
-   obsolescence thesis.
+   obsolescence thesis.  
+   [Read on OSF](https://doi.org/10.35542/osf.io/c9nj3_v1)
 
-4. **Institutional Semantic Drift (ISD)**  
-   How institutions lose the ability to adapt to conceptual 
-   change over time.
-
-*(Links to all papers on EdArXiv/OSF — add URLs here)*
+6. **The Gap Engine**  
+   Architecture and design of a Socratic tutoring system for 
+   secondary humanities.  
+   [Read on OSF](https://doi.org/10.35542/osf.io/j23sh_v1)
 
 ---
 
@@ -73,7 +85,7 @@ architecturally, not just as a prompt suggestion.
 ## This Repository
 
 **What's here:**
-- Synthetic student simulation harness (`zeno_harness_v2.py`)
+- - Synthetic student simulation harness (`zeno_harness_v2.py`)
 - Synchronicity Score evaluation methodology
 - Descent Protocol specification and gating logic
 - Student persona framework (state variable architecture)
@@ -90,4 +102,3 @@ architecturally, not just as a prompt suggestion.
 
 Greg O'Keefe  
 greg.okeefe@gmail.com or https://gregokeefe.substack.com/
-[Your email or Substack link]
